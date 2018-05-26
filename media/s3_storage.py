@@ -1,3 +1,4 @@
+import botocore
 class S3MediaStorage:
 
   def __init__(self, s3, bucket_name):
